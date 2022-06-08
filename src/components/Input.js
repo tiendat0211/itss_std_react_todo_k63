@@ -11,7 +11,7 @@ function Input( {onAdd} ) {
   const handleChange = e => setText(e.target.value);
 
   const handleKeyDown = e => {
-    if (e.keyCode === 13) {
+    if (e.keyCode === 23) {
       onAdd(text);
       setText('');
     }
